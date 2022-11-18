@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Cesluc/Asynchronism-course-with-javascript/issues"
   },
-  "homepage": "https://github.com/Cesluc/Asynchronism-course-with-javascript#readme"
+  "homepage": "https://github.com/Cesluc/Asynchronism-course-with-javascript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
