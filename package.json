@@ -1,0 +1,23 @@
+{
+  "name": "asynchronism-course-with-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cesluc/Asynchronism-course-with-javascript.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Asincrono"
+  ],
+  "author": "Cesar lucumi (clucumi.94@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cesluc/Asynchronism-course-with-javascript/issues"
+  },
+  "homepage": "https://github.com/Cesluc/Asynchronism-course-with-javascript#readme"
+}
