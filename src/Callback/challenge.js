@@ -8,7 +8,7 @@ function fetchData(urlApi, callback){
 
     xhttp.open('GET', urlApi, true);
     xhttp.onreadystatechange = function(event){
-        if (xhttp.readystate === 4){
+        if (xhttp.readyState === 4){
             //States:
             //0 not initialized
             //1 loading
@@ -18,10 +18,10 @@ function fetchData(urlApi, callback){
             if(xhttp.status === 200){
                 //200 - Correct request
                 // 400 - server problem
-                callback(null,JSON.parse(xhttp.responseText));
+                callback(null, JSON.parse(xhttp.responseText));
             }else {
                 const error = new Error ('Error'+ urlApi);
-                return (error, null)
+                return callback(error, null)
             }
         }
     }
